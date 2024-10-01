@@ -1,0 +1,90 @@
+.section {
+	padding: 150px 0;
+}
+
+
+.section-header {
+	margin: 0 auto;
+	padding-bottom: 50px;
+
+	text-align: center;
+	max-width: 800px;
+}
+
+.section-title {
+	color: #ffd479;
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 700;
+	font-size: 96px;
+}
+
+.section-desc {
+	line-height: 200%;
+	font-size: 14px;
+	font-weight: 300;
+	text-wrap: balance;
+	text-transform: uppercase;
+}
+
+.section-trainers-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 35px 30px;
+}
+
+.section-groups-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 105px 32px;
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 1024px) {
+	.section {
+		padding: 100px 0;
+	}
+
+	.section-groups-grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+}
+
+
+
+@media (max-width: 820px) {
+
+
+	.section-trainers-grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+}
+
+
+@media (max-width: 480px) {
+
+	.section-groups-grid {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+	}
+
+
+	.section-title {
+
+		font-size: 70px;
+	}
+}

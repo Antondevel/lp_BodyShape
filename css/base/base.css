@@ -1,0 +1,72 @@
+/* Основные стили */
+body {
+	background-color: #1F2A32;
+	color: #FAFAF5;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	margin: 0;
+	/* Убираем стандартные отступы браузера */
+	padding: 0;
+	/* Убираем стандартные отступы браузера */
+}
+
+a {
+	color: #FAFAF5;
+	text-decoration: none;
+
+}
+
+a:hover {
+	text-decoration: underline;
+
+
+}
+
+/* Контейнер */
+.container {
+	margin: 0 auto;
+	padding: 0 15px;
+	width: 100%;
+	max-width: 1200px;
+}
+
+/* Адаптивные стили для экрана до 768px */
+@media (max-width: 768px) {
+	body {
+		font-size: 15px;
+		/* Уменьшаем размер шрифта на мобильных устройствах */
+	}
+
+	.container {
+		padding: 0 10px;
+		/* Уменьшаем отступы контейнера */
+	}
+}
+
+/* Адаптивные стили для экрана до 480px */
+@media (max-width: 480px) {
+	body {
+		font-size: 14px;
+		/* Дополнительно уменьшаем размер шрифта на маленьких экранах */
+	}
+
+	.container {
+		padding: 0 20px;
+		/* Минимальные отступы контейнера на маленьких экранах */
+	}
+}
+
+/* Стили для универсального адаптивного дизайна */
+@media (min-width: 1024px) {
+	body {
+		font-size: 16px;
+		/* Шрифт по умолчанию для больших экранов */
+	}
+
+	.container {
+		padding: 0 20px;
+		/* Увеличенные отступы контейнера на больших экранах */
+	}
+}

@@ -1,0 +1,43 @@
+.button {
+	display: inline-block;
+	border-radius: 7px;
+	width: 214px;
+	height: 52px;
+	padding: 18px 15px 15px;
+	background-color: #ffd479;
+	/* Основной цвет фона кнопки */
+	font-family: 'Bebas Neue', sans-serif;
+	/* Шрифт для текста на кнопке */
+	font-weight: 700;
+	font-size: 19px;
+	letter-spacing: 0.26em;
+	/* Пространство между буквами */
+	line-height: 1;
+	color: #000;
+	/* Цвет текста */
+	text-align: center;
+	/* Выравнивание текста по центру */
+	text-transform: uppercase;
+	/* Приведение текста к верхнему регистру */
+	transition: background-color 0.2s ease-in;
+	/* Плавный переход фона при наведении */
+	border: none;
+	/* Убираем стандартные границы браузера */
+	cursor: pointer;
+	/* Курсор в виде указателя */
+}
+
+/* Стили для состояния наведения и активации кнопки */
+.button:hover,
+.button:active {
+	background-color: #fcc54e;
+	/* Цвет фона при наведении и нажатии */
+}
+
+/* Стили для состояния кнопки при фокусе, чтобы улучшить доступность */
+.button:focus {
+	outline: 2px solid #000;
+	/* Обводка при фокусе */
+	outline-offset: 2px;
+	/* Отступ обводки от кнопки */
+}

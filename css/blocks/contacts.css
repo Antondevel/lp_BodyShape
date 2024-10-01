@@ -1,0 +1,30 @@
+.contacts {
+	display: flex;
+	align-items: center;
+
+	height: 860px;
+
+	background-image: image-set(
+		url('./../../img/contacts/contact-form-bg.jpg') 1x,
+		url('./../../img/contacts/contact-form-bg@2x.jpg') 2x
+	);
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.contacts-content {
+	margin: 0 auto;
+	max-width: 585px;
+}
+
+.contacts-title {
+	margin-bottom: 40px;
+	
+	font-family: 'Bebas Neue', sans-serif;
+	font-weight: 700;
+	font-size: 70px;
+	letter-spacing: 0.06em;
+	color: #ffd479;
+}

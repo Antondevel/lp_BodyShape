@@ -1,0 +1,22 @@
+.footer {
+	padding: 70px 0;
+}
+
+.footer-socials {
+	margin-bottom: 30px;
+
+	display: flex;
+	gap: 50px;
+	align-items: center;
+}
+
+.footer-contacts {
+	display: flex;
+	gap: 50px;
+
+	max-width: 585px;
+
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 200%;
+}
